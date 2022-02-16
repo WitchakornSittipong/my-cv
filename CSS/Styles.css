@@ -1,0 +1,186 @@
+
+/*
+embaded fonts
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+To set as dynamic fonts set > 100% = 16px = 1em
+*/
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+   margin: 5px auto 0 auto;
+   /* width: 20%;
+  margin: 0 auto 0 auto; /* top>right>bot>left*/
+}
+
+h2{
+    /*font-weight: normal;*/
+    color: #219F94;
+}
+
+/*******************************************************Class******************************************************/
+
+.top-container{
+    background-color: #C0D8C0;  
+}
+
+.middle-container{
+    background-color: #F5EEDC;
+    padding-top: 10px; 
+    padding-bottom: 50px; 
+}
+
+.bottom-container{
+    background-color: #DD4A48;  
+    padding-top: 15px;
+}
+
+.Pro{
+    text-decoration: underline;
+}
+
+/*.introduction1{
+    width: 30%;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    line-height: 2;
+    font-weight: bold;
+
+}*/
+     
+
+.profile{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.intro_1{
+    position: relative;
+    font-weight: bold;
+    width: 60%;
+    margin: 50px 2% 0px;
+    text-align: left;
+    line-height: 2;
+}
+
+
+
+.skill-row{
+    
+    width: 60%;
+    margin: 100px auto 100px auto; /*auto will set all div content at the middle of the page (we set this line for top and bot margin) top>right>bot>left*/
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img{
+    width: 20%; /*This will be 20% of the div box, in this case > class="skill-row" */
+    float: left;
+    margin-right: 15px;
+}
+
+.hobby-img{
+    width: 20%;
+    float: right;
+    margin-left: 15px;
+}
+
+.contact-me{
+
+    width: 50%;
+    margin: auto;
+}
+
+.footer-link{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 10px 10px;
+    color: #F5EEDC;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+
+    color: aqua;
+}
+
+.coppy{
+
+    font-size: 0.75rem;
+}
+
+.btn {
+    background: #23577a;
+    background-image: -webkit-linear-gradient(top, #23577a, #2980b9);
+    background-image: -moz-linear-gradient(top, #23577a, #2980b9);
+    background-image: -ms-linear-gradient(top, #23577a, #2980b9);
+    background-image: -o-linear-gradient(top, #23577a, #2980b9);
+    background-image: linear-gradient(to bottom, #23577a, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+   
+    
+  }
+  
+  .btn:hover {
+    background: #4fbcff;
+    background-image: -webkit-linear-gradient(top, #4fbcff, #3498db);
+    background-image: -moz-linear-gradient(top, #4fbcff, #3498db);
+    background-image: -ms-linear-gradient(top, #4fbcff, #3498db);
+    background-image: -o-linear-gradient(top, #4fbcff, #3498db);
+    background-image: linear-gradient(to bottom, #4fbcff, #3498db);
+    text-decoration: none;
+    
+  }
+
+/*******************************************************ID******************************************************/
+#name-line1{
+
+    font-family: 'Sacramento', cursive;
+    font-size: 400%;
+    color: #219F94;
+    
+}
+
+/**image**/
+
+#cloud1{
+    position: relative;
+    left: 30%;
+    top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+
+#cloud3{
+
+    position: absolute;
+    top: 20%;
+    right: 80%;
+    
+
+}
+
+#m1{
+    position: relative;
+    width: 100%;
+    
+    
+}
